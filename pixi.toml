@@ -11,3 +11,7 @@ version = "0.0.0"
 
 [feature.dev.dependencies]
 gh = "*"
+
+[environments.dev]
+features = ["dev"]
+solve-group = "default"
