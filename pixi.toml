@@ -12,6 +12,26 @@ version = "0.0.0"
 [feature.dev.dependencies]
 gh = "*"
 
+[feature.dev.tasks]
+setup_labels = """
+    gh label delete "bug" --yes || true;
+    gh label delete "documentation" --yes || true;
+    gh label delete "duplicate" --yes || true;
+    gh label delete "enhancement" --yes || true;
+    gh label delete "good first issue" --yes || true;
+    gh label delete "help wanted" --yes || true;
+    gh label delete "invalid" --yes || true;
+    gh label delete "question" --yes || true;
+    gh label delete "wontfix" --yes || true;
+    gh label create "type: bug" --color "d73a4a" --description "Incorrect information, broken links, typos or errata." --force &&
+    gh label create "type: suggestion" --color "ffa5a5" --description "Proposed improvements or new ideas." --force &&
+    gh label create "scope: content" --color "0075ca" --description "The actual content." --force &&
+    gh label create "scope: docs" --color "a2eeef" --description "Documentation about this repository, i.e. Meta-documentation (README, contributing, license)." --force &&
+    gh label create "scope: workflow" --color "5319e7" --description "Continuous Integration (CI) related."
+"""
+
 [environments.dev]
 features = ["dev"]
 solve-group = "default"
+
+
