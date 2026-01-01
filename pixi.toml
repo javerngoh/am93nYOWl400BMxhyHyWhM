@@ -3,7 +3,7 @@ authors = ["Javern Goh <javerngoh@gmail.com>"]
 channels = ["conda-forge"]
 name = "am93nYOWl400BMxhyHyWhM"
 platforms = ["win-64"]
-version = "0.1.0"
+version = "0.0.0"
 
 [tasks]
 
