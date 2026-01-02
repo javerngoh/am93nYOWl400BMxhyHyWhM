@@ -16,6 +16,9 @@ To contribute to this documentation repository, set-up the environment
 ### 1 Clone repository
 First, clone the repository to your local machine using Git:
 ```bash
-git clone [https://github.com/javerngoh/am93nYOWl400BMxhyHyWhM.git](https://github.com/javerngoh/am93nYOWl400BMxhyHyWhM.git)
+git clone https://github.com/javerngoh/am93nYOWl400BMxhyHyWhM.git
+```
+Then cd into the cloned repository:
+```bash
 cd am93nYOWl400BMxhyHyWhM
 ```
