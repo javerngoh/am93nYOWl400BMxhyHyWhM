@@ -13,7 +13,7 @@ version = "0.0.0"
 gh = "*"
 
 [feature.dev.tasks]
-setup_labels = """
+init = """
     gh label delete "bug" --yes || true;
     gh label delete "documentation" --yes || true;
     gh label delete "duplicate" --yes || true;
