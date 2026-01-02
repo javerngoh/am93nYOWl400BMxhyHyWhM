@@ -9,6 +9,13 @@ This readme file is not the actual documentation, but the documentation for this
 ## Dev
 To contribute to this documentation repository, set-up the environment
 
-### prerequisites
+### 0 Prerequisites
 1. install [pixi](https://pixi.prefix.dev/latest/)
 2. install [git](https://git-scm.com/)
+
+### 1 Clone repository
+First, clone the repository to your local machine using Git:
+```bash
+git clone [https://github.com/javerngoh/am93nYOWl400BMxhyHyWhM.git](https://github.com/javerngoh/am93nYOWl400BMxhyHyWhM.git)
+cd am93nYOWl400BMxhyHyWhM
+```
